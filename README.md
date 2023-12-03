@@ -36,7 +36,7 @@ Functions for SNP assessment and filtering according to various parameters. Limi
 
 Call|Function|Input(s)|
 ----------------|----------------|----------------|
-find_snps|Determines if list of SNPs occur within a list of intervals by position|Query and subject SNP dataframes.|
+find_snps|Determines if list of SNPs occur within a list of intervals by position|Query (q_in.csv) and subject (s_in.csv) SNP dataframes.|
 xdeep|Filters SNPs by population depth.|SNP dataframe with poolfstat coverage output columns for each population and target depth|
 find_neighbors|Finds SNPs that are in the neighborhood (flanking region length specified) of some desired regions.|Query and subject SNP dataframes and flanking length in basepairs|
 n_neighbors|Counts adjacent SNPs for all SNPs. Not to be used with >5000 query SNPs.|Query and subject SNP dataframes and flanking length in basepairs|
