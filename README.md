@@ -15,7 +15,7 @@ Kristen N. Finch. 2018. Dataset for genomic resources for the neotropical tree g
 
 These functions that were developed specifically to process coverage statistics files from bbmap.sh. 
 
-## see functions_cov_stats.R
+## see functions_covstats.R and functions_covstats_usage.Rmd
 
 Call|Function|Input(s)|
 ----------------|----------------|----------------|
