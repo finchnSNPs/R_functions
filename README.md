@@ -15,6 +15,8 @@ Kristen N. Finch. 2018. Dataset for genomic resources for the neotropical tree g
 
 These functions that were developed specifically to process coverage statistics files from bbmap.sh. 
 
+## see functions_cov_stats.R
+
 Call|Function|Input(s)|
 ----------------|----------------|----------------|
 get_cov_percent|Generates a dataframe with covered percent. One column per specimen.|List of data frames|
